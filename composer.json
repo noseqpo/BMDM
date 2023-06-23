@@ -1,0 +1,5 @@
+{
+    "require": {
+        "dautkom/bmdm": "^2.0"
+    }
+}

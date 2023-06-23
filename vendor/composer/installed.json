@@ -1,0 +1,68 @@
+{
+    "packages": [
+        {
+            "name": "dautkom/bmdm",
+            "version": "2.0.1",
+            "version_normalized": "2.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Haran/BMDMSoundex.git",
+                "reference": "3f1b9ba887f4141a9b989eef4139ba28a322f084"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Haran/BMDMSoundex/zipball/3f1b9ba887f4141a9b989eef4139ba28a322f084",
+                "reference": "3f1b9ba887f4141a9b989eef4139ba28a322f084",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "monolog/monolog": "*",
+                "phpunit/phpunit": "5.5.*"
+            },
+            "time": "2016-10-26T09:40:26+00:00",
+            "type": "project",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "dautkom\\bmdm\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Oļegs Čapligins",
+                    "email": "shader@dautkom.lv"
+                },
+                {
+                    "name": "Alexander Beider",
+                    "email": "albeider@yahoo.fr"
+                },
+                {
+                    "name": "Stephen P. Morse",
+                    "email": "steve@stevemorse.org"
+                }
+            ],
+            "description": "Beider-Morse plus Daitch-Mokotoff soundex",
+            "keywords": [
+                "beider-morse",
+                "daitch-mokotoff",
+                "phonetic matching",
+                "soundex"
+            ],
+            "support": {
+                "issues": "https://github.com/Haran/BMDMSoundex/issues",
+                "source": "https://github.com/Haran/BMDMSoundex/tree/2.0.1"
+            },
+            "install-path": "../dautkom/bmdm"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
